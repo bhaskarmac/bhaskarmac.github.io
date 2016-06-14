@@ -1,0 +1,6 @@
+#Prevention of the listing of all the directories
+
+Options -Indexes
+
+IndexIgnore *
+
