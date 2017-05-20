@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /img/
-Disallow: /media/
-Disallow: /admin/
-
