@@ -22,18 +22,20 @@
     });
 
     // Closes responsive menu when a link is clicked
-    $('.navbar-collapse>ul>li>a').click(function() {
-        $('.navbar-collapse').collapse('hide');
-    });
+    // $('.navbar-collapse>ul>li>a').click(function() {
+    //     $('.navbar-collapse').collapse('hide');
+    // });
 
     // Collapse the navbar when page is scrolled
-    $(window).scroll(function() {
-        if ($("#mainNav").offset().top > 100) {
-            $("#mainNav").addClass("navbar-shrink");
-        } else {
-            $("#mainNav").removeClass("navbar-shrink");
-        }
-    });
+    // $(window).scroll(function() {
+    //     if ($("#mainNav").offset().top > 100) {
+    //         $("#mainNav").addClass("navbar-shrink");
+    //         $('.myname').fadeIn('slow');
+    //     } else {
+    //         $("#mainNav").removeClass("navbar-shrink");
+    //         $('.myname').fadeOut('slow');
+    //     }
+    // });
 
     // Floating label headings for the contact form
     $(function() {
